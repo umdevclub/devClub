@@ -1,19 +1,14 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [One Page Wonder](http://startbootstrap.com/template-overviews/one-page-wonder/)
+## [Jekyll](https://jekyllrb.com/docs/github-pages/) on [Github Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/) - Understanding the Code
 
-[One Page Wonder](http://startbootstrap.com/template-overviews/one-page-wonder/) is a basic one page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+Based on [this tutorial](https://jekyllrb.com/tutorials/convert-site-to-jekyll/) to setup Jekyll from our static site.
 
-## Getting Started
+Content is written in [Markdown](https://learnxinyminutes.com/docs/markdown/) in .md files found in root directory.  See index.md
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/one-page-wonder/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-one-page-wonder.git`
-* Fork the repo
+Note: In the markdown files, the header sets values for that file, such as it's title and which layout to use when loading it as a page.
 
-## Bugs and Issues
+In the body of that markdown file, \{\% include x.html \%\} includes the html code from \_includes/x.html
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/one-page-wonder/).
-
-## Creator
+## Creator of Start Bootstrap (our css stuff)
 
 Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
@@ -22,6 +17,6 @@ Start Bootstrap was created by and is maintained by **[David Miller](http://davi
 
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-## Copyright and License
+## Copyright and License (of Start Bootstrap)
 
 Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/gh-pages/LICENSE) license.
