@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,7 +31,7 @@
 
     <!-- tweak for where anchor lands for navigation -->
     <script>
-        var shiftWindow = function() { scrollBy(0, -50) };
+        var shiftWindow = function () { scrollBy(0, -50) };
         window.addEventListener("hashchange", shiftWindow);
         function load() { if (window.location.hash) shiftWindow(); }
     </script>
@@ -41,88 +40,81 @@
 
 <body>
 
-<!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
 
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-            <a class="navbar-brand" href="#">.devClub</a>
+                <a class="navbar-brand" href="#">.devClub</a>
 
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#meetings">Meetings</a>
+                    </li>
+                    <li>
+                        <a href="#execs">Executives</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <!-- /.container -->
+    </nav>
 
-            <ul class="nav navbar-nav">
-                <li> <a href="#about">About</a> </li>
-                <li> <a href="#meetings">Meetings</a> </li>
-                <li> <a href="#execs">Executives</a> </li>
-                <li> <a href="#contact">Contact</a> </li>
-            </ul>
-
-            <ul class="nav navbar-nav navbar-right">
-                <li > <a href="projects.html">Projects</a> </li>
-            </ul>
-
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
-
-<!-- Full Width Image Header -->
-<header class="header-image headline">
+    <!-- Full Width Image Header -->
+    <header class="header-image headline">
         <div class="container">
             <h1>.devClub</h1>
         </div>
-</header>
+    </header>
 
-<!-- Page Content -->
-<div class="container">
+    <!-- Page Content -->
+    <div class="container">
 
-    <!-- First Featurette -->
-    <div class="featurette" id="about">
-        <img class="featurette-image img-circle img-responsive pull-right" src="images/logo.png">
-        <h2 class="featurette-heading">About
-            <span class="text-muted">.devClub</span>
-        </h2>
-        <p class="lead">devClub's mandate is to provide students of the University of Manitoba with an opportunity to gain some coding experience, learn various engines, softwares, and consoles. This group will also be opened to students who are just interested and would like to join.</p>
-        <br>
-        <div>
-            <h4><img src="images/slack-chat.png"> Join Us On Slack! <a href="http://umdevclub.slack.com">umdevclub.slack.com</a></h4>
+        <!-- Second Featurette -->
+        <div class="featurette" id="meetings">
+            <h2 class="featurette-heading">Our Next
+                <span class="text-muted">Meetings</span>
+            </h2>
+            <p class="lead">Our meetings are usually every Wednesday at 6pm</p>
+            <!-- Desktop version -->
+            <div class="responsive-iframe-container big-container">
+                <iframe src="https://calendar.google.com/calendar/embed?src=umdevclub%40gmail.com&ctz=America/Winnipeg" style="border: 0"
+                    width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                <!-- can customize colours in google calendar settings - insert new embeded code -->
+            </div>
+            <!-- Mobile version -->
+            <div class="responsive-iframe-container small-container">
+                <iframe src="https://calendar.google.com/calendar/embed?src=umdevclub%40gmail.com&mode=AGENDA&ampctz=America/Winnipeg" style="border: 0"
+                    width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                <!-- can customize colours in google calendar settings - insert new embeded code -->
+            </div>
         </div>
-		<div>
-            <h4><img src="images/facebook.png"> <a href="https://www.facebook.com/umdevclub/">Follow Us On Facebook!</a></h4>
-        </div>
-		<div>
-            <h4><img src="images/instagram.png"> <a href="https://www.instagram.com/umdevclub/">Follow Us On Instagram!</a></h4>
-        </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <!-- Second Featurette -->
-    <div class="featurette" id="meetings">
-        <h2 class="featurette-heading">Our Next
-            <span class="text-muted">Meetings</span>
-        </h2>
-        <p class="lead">Our meetings are usually every Wednesday at 6pm</p>
-        <!-- Desktop version -->
-        <div class="responsive-iframe-container big-container">
-            <iframe src="https://calendar.google.com/calendar/embed?src=umdevclub%40gmail.com&ctz=America/Winnipeg" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> <!-- can customize colours in google calendar settings - insert new embeded code -->
-        </div>
-        <!-- Mobile version -->
-        <div class="responsive-iframe-container small-container">
-            <iframe src="https://calendar.google.com/calendar/embed?src=umdevclub%40gmail.com&mode=AGENDA&ampctz=America/Winnipeg" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> <!-- can customize colours in google calendar settings - insert new embeded code -->
-        </div>
-    </div>
 
         <hr class="featurette-divider">
 
@@ -133,100 +125,181 @@
                 <span class="text-muted">Executives</span>
             </h2>
 
-    <!-- EXEC SECTION -->
-        <!-- Row 1 -->
-        <div class="row1">
+            <!-- EXEC SECTION -->
+            <!-- Row 1 -->
+            <div class="row1">
 
-            <!-- Co-President -->
-            <div class="col-md-6">
+                <!-- Co-President -->
+                <div class="col-md-6">
                     <div class="exec_img">
                         <img src="images/alex.jpg" alt="Alex" />
                     </div>
                     <span class="title">Co-President</span>
-                    <h4><span>Alexander </span> Mark</h4>
-                <ul class="mediaIconAlign">
-                    <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"  target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-foursquare"></i></a></li>
-                </ul>
-            </div>
+                    <h4>
+                        <span>Alexander </span> Mark</h4>
+                    <ul class="mediaIconAlign">
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-foursquare"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
-            <!-- Co-President -->
-            <div class="col-md-6">
+                <!-- Co-President -->
+                <div class="col-md-6">
                     <div class="exec_img">
                         <img src="images/mardel.jpg" alt="Mardel" />
                     </div>
                     <span class="title">Co-President</span>
-                    <h4><span>Mardel </span> Maduro</h4>
-                <ul class="mediaIconAlign">
-                    <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"  target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-foursquare"></i></a></li>
-                </ul>
+                    <h4>
+                        <span>Mardel </span> Maduro</h4>
+                    <ul class="mediaIconAlign">
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-foursquare"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
+            <!-- end row 1 -->
 
-        </div> <!-- end row 1 -->
-
-    <!-- Row 2 -->
-    <div class="row2">
-        <!-- Communications -->
-        <div class="col-md-3">
-                <div class="exec_img">
-                    <img src="images/wynand.jpg" alt="Wynand" />
+            <!-- Row 2 -->
+            <div class="row2">
+                <!-- Communications -->
+                <div class="col-md-3">
+                    <div class="exec_img">
+                        <img src="images/wynand.jpg" alt="Wynand" />
+                    </div>
+                    <span class="title">Executive of Events</span>
+                    <h4>
+                        <span>Wynand</span> Badenhorst</h4>
+                    <ul class="mediaIconAlign">
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-foursquare"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <span class="title">VP of Communications</span>
-                <h4 ><span>Wynand</span> Badenhorst</h4>
-            <ul class="mediaIconAlign">
-                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"  target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fa fa-foursquare"></i></a></li>
-            </ul>
-        </div>
 
-        <!-- Events -->
-        <div class="col-md-3">
-                <div class="exec_img">
-                    <img src="images/landon.jpg" alt="Wynand" />
+                <!-- Events -->
+                <div class="col-md-3">
+                    <div class="exec_img">
+                        <img src="images/landon.jpg" alt="Wynand" />
+                    </div>
+                    <span class="title">Executive</span>
+                    <h4>
+                        <span>Landon</span> Butter</h4>
+                    <ul class="mediaIconAlign">
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-foursquare"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <span class="title">VP of Evants</span>
-                <h4><span>Landon</span> Butter</h4>
-            <ul class="mediaIconAlign">
-                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"  target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fa fa-foursquare"></i></a></li>
-            </ul>
-        </div>
 
-        <!-- Co-VP of Outreach -->
-        <div class="col-md-3">
-                <div class="exec_img">
-                    <img src="images/annelies.jpg" alt="Annelies" />
+                <!-- Exec of Outreach -->
+                <div class="col-md-3">
+                    <div class="exec_img">
+                        <img src="images/annelies.jpg" alt="Annelies" />
+                    </div>
+                    <span class="title">Executive of Outreach</span>
+                    <h4>
+                        <span>Annelies</span> Sikkenga</h4>
+                    <ul class="mediaIconAlign">
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-foursquare"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <span class="title">Co-VP of Outreach</span>
-                <h4><span>Annelies</span> Sikkenga</h4>
-            <ul class="mediaIconAlign">
-                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"  target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fa fa-foursquare"></i></a></li>
-            </ul>
-        </div>
 
-        <!-- Co-VP of Outreach -->
-        <div class="col-md-3">
-                <div class="exec_img">
-                    <img src="images/harman.jpg" alt="Harman" />
+                <!-- Exec of Communications -->
+                <div class="col-md-3">
+                    <div class="exec_img">
+                        <img src="https://graph.facebook.com/1216476346/picture?type=large" alt="Jen" />
+                    </div>
+                    <span class="title">Executive of Communication</span>
+                    <h4>
+                        <span>Jennifer</span> Tran</h4>
+                    <ul class="mediaIconAlign">
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-foursquare"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <span class="title">Co-VP of Outreach</span>
-                <h4><span>Harman</span> Sandhu</h4>
-            <ul class="mediaIconAlign">
-                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"  target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fa fa-foursquare"></i></a></li>
-            </ul>
-        </div>
 
-    </div><!-- end row 2 -->
-        </div> <!--end 3rd featurette -->
+            </div>
+            <!-- end row 2 -->
+        </div>
+        <!--end 3rd featurette -->
 
         <hr class="featurette-divider">
 
@@ -239,40 +312,42 @@
             <div class="row">
                 <form action="mail.php" method="post" class="contact-form">
                     <fieldset class="col-md-4 col-sm-6">
-						<label for="your-name">Name</label>
+                        <label for="your-name">Name</label>
                         <input class="form-control" type="text" id="your-name" placeholder="Your Name..." maxlength="60" title="Enter Your Name">
                     </fieldset>
                     <fieldset class="col-md-4 col-sm-6">
-						<label for="your-email">Email</label>
-                        <input  class="form-control" type="email" id="your-email" placeholder="Your Email..." maxlength="60" title="Enter Your Email">
+                        <label for="your-email">Email</label>
+                        <input class="form-control" type="email" id="your-email" placeholder="Your Email..." maxlength="60" title="Enter Your Email">
                     </fieldset>
                     <fieldset class="col-md-4 col-sm-12">
-						<label for="your-subject">Subject</label>
+                        <label for="your-subject">Subject</label>
                         <input class="form-control" type="text" id="your-subject" placeholder="Subject..." maxlength="100" title="Enter Subject">
                     </fieldset>
                     <fieldset class="col-md-12 col-sm-12">
-						<label for="your-message">Message</label>
-                        <textarea class="form-control" name="message" id="your-message" cols="30" rows="6" placeholder="Leave your message..." maxlength="500" title="Enter Message"></textarea>
+                        <label for="your-message">Message</label>
+                        <textarea class="form-control" name="message" id="your-message" cols="30" rows="6" placeholder="Leave your message..." maxlength="500"
+                            title="Enter Message"></textarea>
                     </fieldset>
                     <fieldset class="col-md-12 col-sm-12">
                         <button type="submit" class="button big default buttonPadding" value="Send Message">Send Message</button>
                     </fieldset>
                 </form>
-            </div> <!-- .contact-form -->
+            </div>
+            <!-- .contact-form -->
 
         </div>
 
         <hr class="featurette-divider">
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="row">
-            <div class="col-lg-12">
-                <p>Copyright &copy; devClub 2017</p>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; .devClub 2018</p>
+                </div>
             </div>
-        </div>
-    </footer>
-</div>
+        </footer>
+    </div>
 
     <!-- /.container -->
 
