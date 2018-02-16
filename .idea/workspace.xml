@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="332375f1-f290-486c-adb8-51abadd5a221" name="Default" comment="Added fancy jQuery to enable smooth scrolling when user click on the navigation bar">
+    <list default="true" id="332375f1-f290-486c-adb8-51abadd5a221" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/devclubJS.js" afterPath="$PROJECT_DIR$/js/devclubJS.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -248,7 +246,7 @@
       <workItem from="1498197702154" duration="119000" />
       <workItem from="1498197866391" duration="7531000" />
       <workItem from="1498682761680" duration="4290000" />
-      <workItem from="1518775075563" duration="580000" />
+      <workItem from="1518775075563" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="fixed layout, icons, form titles, header backgound needs work">
       <created>1498198084180</created>
@@ -257,11 +255,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498198084180</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added fancy jQuery to enable smooth scrolling when user click on the navigation bar">
+      <created>1518775677121</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1518775677123</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47902000" />
+    <option name="totallyTimeSpent" value="47987000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
