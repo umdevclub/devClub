@@ -1,27 +1,26 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [One Page Wonder](http://startbootstrap.com/template-overviews/one-page-wonder/)
+# .devclub Website
 
-[One Page Wonder](http://startbootstrap.com/template-overviews/one-page-wonder/) is a basic one page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+## Welcome! 
 
-## Getting Started
+This is an open source project to manage our public facing website. Like all devclub initiatives it's a place for .devclub members to improve their development, collaboration, and writing skills by doing real development.
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/one-page-wonder/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-one-page-wonder.git`
-* Fork the repo
+## How to Contribute
 
-## Bugs and Issues
+All members and former members are welcome to contribute, please start by checking out the [wiki](https://github.com/umdevclub/umdevclub.github.io/wiki). If you come across any problems with the site please feel free to log an [issue](https://github.com/umdevclub/umdevclub.github.io/issues).
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/one-page-wonder/).
+## Viewing the Site
 
-## Creator
+You can currently view the site at [https://umdevclub.github.io/](https://umdevclub.github.io/)
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+## Roadmap
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+In the coming months we will be migrating to a more dynamic webpage. Here are some of the changes we could use your help on:
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+- Adding capabilities for a rotating blog to enable our members to share their learning experiences
+- Completing the Projects page so we can highlight some of the cool things .devclub and it's members are doing.
+- Adding RSS feeds from our social media pages for a more dynamic look and feel
+- Outlining clear collaboration and coding standards for this and future projects
+- Making our website more accessible
 
-## Copyright and License
-
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/gh-pages/LICENSE) license.
+If you have any suggestions to make the site better or ideas for future development please log an 
+[issue](https://github.com/umdevclub/umdevclub.github.io/issues) and be sure to tag it `discussion`.
