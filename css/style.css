@@ -9,6 +9,11 @@ body {
 
 }
 
+.brand-icon {
+	height: 48px;
+	width: 48px;
+}
+
 .header-image {
     text-align: center;
     background: url('../images/groupPhoto.jpg') no-repeat center center;
