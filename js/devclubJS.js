@@ -1,6 +1,39 @@
 
 //add new js functions here
 
+//js for particle effect
+window.onload = function() {
+    Particles.init({
+        selector: '.backgroundpar',
+        color: ['#5856d6','#ffcc00','#5856d5','#5856d4','#4cd964'],
+        connectParticles: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                options: {
+                    maxParticles: 75,
+                }
+            }, {
+                breakpoint: 620,
+                options: {maxParticles: 25,
+                    color: '#5856d6'
+                }
+            }, {
+                breakpoint: 500,
+                options: {maxParticles: 10,
+                    color: '#5856d6'
+                }
+            }, {
+                breakpoint: 320,
+                options: {
+                    maxParticles: 0 // disables particles.js
+                }
+            }
+        ]
+    });
+};
+
+
 //navbar - collapse on click fix
 $(document).on('click','.navbar-collapse.in',function(e) {
     if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
