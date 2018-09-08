@@ -5,7 +5,7 @@
 window.onload = function() {
     Particles.init({
         selector: '.backgroundpar',
-        color: ['#5856d6','#ffcc00','#5856d5','#5856d4','#4cd964'],
+        color: ['#DA0463', '#5856d6', '#DBEDF3'],
         connectParticles: true,
         responsive: [
             {
@@ -15,7 +15,7 @@ window.onload = function() {
                 }
             }, {
                 breakpoint: 620,
-                options: {maxParticles: 25,
+                options: {maxParticles: 20,
                     color: '#5856d6'
                 }
             }, {
